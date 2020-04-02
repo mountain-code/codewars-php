@@ -1,0 +1,25 @@
+{
+    "name": "mountain-code/codewars-php",
+    "description": "Codewars Reloaded Client library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords":          [
+        "codewars",
+        "codewars reloaded",
+        "php library"
+    ],
+    "authors": [
+        {
+            "name": "Timo Hallek",
+            "email": "timo@mountain-code.at",
+            "homepage": "http://www.mountain-code.at"
+        }
+    ],
+    "require": {
+        "php": "^7.3.0"
+    },
+    "autoload": {
+        "psr-4": {"CodewarsPhp\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}
